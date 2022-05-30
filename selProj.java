@@ -16,6 +16,7 @@ import com.gargoylesoftware.htmlunit.util.Cookie;
 public class selProj {
 
 	public static void main(String[] args) {
+		
 System.setProperty("webdriver.chrome.driver", "D:\\Raje\\Drivers\\chromedriver.exe");
 WebDriver driver=new ChromeDriver();
 driver.get("http://www.payilagam.com");
@@ -26,11 +27,12 @@ for(org.openqa.selenium.Cookie c : cookies)
 }
 	
 
-/*System.out.println("The URL is :" + driver.getCurrentUrl());
+System.out.println("The URL is :" + driver.getCurrentUrl());
 System.out.println("Page Source :"+driver.getPageSource());
 System.out.println("Page Title "+ driver.getTitle());
 System.out.println("Window Handle :"+driver.getWindowHandle());
-System.out.println("Window Handles :"+driver.getWindowHandles());
+
+/*System.out.println("Window Handles :"+driver.getWindowHandles());
 driver.get("http://www.google.com");
 System.out.println("Page Title "+ driver.getTitle());
 driver.navigate().back();
