@@ -4,7 +4,9 @@ import java.util.*;
 public class stack {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		//Stack Program 
+		
 		stackP stackObj=new stackP();
 		stackObj.push('a');
 		stackObj.push('b');
